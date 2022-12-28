@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Euro from '../asset/euro-svgrepo-com.svg'
+import SalesByCountry from './SalesByCountry'
+import Statistics from './Statistics'
+import TopInfluencer from './TopInfluencer'
+import TopProduct from './TopProduct'
 // import axios from 'axios';
 
 function Main() {
@@ -67,13 +71,29 @@ function Main() {
                   <img width="40" src={item.src} alt="euro" />
                 </div>
                 <div>
-                  <div>{item.title}</div>
-                  <div>{item.value}</div>
+                  <div className='title'>{item.title}</div>
+                  <div className='value'>{item.value}</div>
                 </div>
               </div>
             </div>
           )
         }
+      </div>
+      <div className="row my-5">
+        <div className="col-8">
+          <Statistics />
+        </div>
+        <div className="col-4">
+          <TopProduct />
+        </div>
+      </div>
+      <div className="row mt-5">
+        <div className="col-8">
+          <TopInfluencer />
+        </div>
+        <div className="col-4">
+          <SalesByCountry />
+        </div>
       </div>
     </div>
   )

@@ -46,6 +46,7 @@
   align-items: center;
   padding: 8px;
   flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 .main .card .image{
   width:50px;
@@ -57,5 +58,39 @@
 .brand span{
   font-weight: bold;
   font-size:16px
+}
+
+.main .card .title{
+
+}
+
+.main .card .title{
+
+}
+
+.top-influencer table td{
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.top-influencer table tbody td div{
+  background-color: #fff;
+  height: 40px;
+  padding: 0.5rem;
+}
+.top-influencer table tbody td:first-child div{
+  border-radius: 40px 0 0 40px;
+}
+.top-influencer table tbody td:last-child div{
+  border-radius: 0 40px  40px 0;
+}
+
+.sales-country .title{
+  margin-bottom: 40px;
+}
+
+.sales-country .map img{
+  width: 100%;
+  border-radius: 10px;
 }
 

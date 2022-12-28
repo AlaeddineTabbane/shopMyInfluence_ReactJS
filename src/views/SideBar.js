@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Logo from '../asset/logo.png'
 
-function SideBar({ ...props }) {
+function SideBar() {
 
   return (
     <div className='sidebar'>
       <div className='logo'>
-        <img src={Logo} alt='logo' />
+        <img src={Logo} alt='logo' loading='lazy'/>
       </div>
       <div className='item active'>
         Dashboard
