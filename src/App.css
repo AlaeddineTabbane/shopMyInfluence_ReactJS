@@ -61,11 +61,13 @@
 }
 
 .main .card .title{
+  font-size: 14px;
 
 }
 
-.main .card .title{
-
+.main .card .value{
+ font-size: 14px;
+ font-weight: bold;
 }
 
 .top-influencer table td{
