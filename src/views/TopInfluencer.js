@@ -28,7 +28,7 @@ function TopInfluencer() {
         <tbody>
           {
             influencers.map((item, index) =>
-              <tr>
+              <tr key={index}>
                 <td><div>{index + 1} {item.name}</div>  </td>
                 <td><div>{item.sales}</div> </td>
                 <td><div>{item.number}</div> </td>

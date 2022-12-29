@@ -94,3 +94,19 @@
   border-radius: 10px;
 }
 
+.statistics .chart{
+  background-color: #fff;
+  border-radius:8px;
+  display: flex;
+  justify-content:center;
+  height: 400px;
+padding: 20px;
+}
+.top-product .chart{
+  background-color: #fff;
+  border-radius:8px;
+  display: flex;
+  justify-content:center;
+  height: 400px;
+padding: 20px;
+}

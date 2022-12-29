@@ -64,8 +64,8 @@ function Main() {
       </header>
       <div className="row gap-3">
         {
-          generaleValue.map(item =>
-            <div className="col-auto ">
+          generaleValue.map((item,index) =>
+            <div className="col-auto " key={index+'gv'}>
               <div className="d-flex card">
                 <div className="image">
                   <img width="40" src={item.src} alt="euro" />
